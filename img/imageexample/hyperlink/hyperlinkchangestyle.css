@@ -1,0 +1,35 @@
+a{
+  background-color: bisque;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration:none;
+}
+/*default state :link (pseudo-class link)*/
+a:link {
+  color: teal;
+
+}
+/*active state :active (pseudo-class active)*/
+a:active {
+  color: red;
+  font-size: 40px;
+  border-radius: 50px;
+  background-color: yellow;
+  
+}
+/*visited state :visited (pseudo-class visited)*/
+a:visited {
+  color: purple;
+  font-size: 16px;
+  text-decoration: line-through;
+}
+/*hover state :hover (pseudo-class hover)*/
+a:hover {
+  color: green;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: lightblue;
+  text-decoration: underline;
+  box-shadow: 2px 2px 5px gray;
+  transition: all 0.3s ease;
+}
